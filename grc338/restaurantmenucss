@@ -1,0 +1,13 @@
+/*CSS DOCUMENT*/
+<head>
+  <meta name="viewport" content="width=device‑width, initial‑scale=1">
+  
+  </head>
+  
+  <body>
+  
+  h1{
+  color: rgb (255,0,0);
+  }
+  
+  </body>
