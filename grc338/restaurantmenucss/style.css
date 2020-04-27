@@ -31,7 +31,7 @@ h4 { /*dish name*/
 }
 
 .description {
-    margin:.1em, 10em, .1em, 4em;
+    margin:.1em, 10em, .1em, 5em;
     color: #386B73;
      font-size: 2em;
 }
@@ -40,4 +40,5 @@ h4 { /*dish name*/
     font-style: italic;
     font-size: 2em;
     color: #386B73;
+    margin-left: 3em;
 }
