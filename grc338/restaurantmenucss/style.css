@@ -1,24 +1,25 @@
 /*CSS DOCUMENT*/
 
+body {background-color: #EEF9FF;}
+
 h1 { /*title*/
-    margin: 50px 0px 0px 0px;
-    font-family: serif;
-    color: red;
+    margin: 60px 0px 0px 0px;
+    font-family: temeraire, serif;
+    color: #1E80DC;
     text-align: center;
      font-size: 7em;
 }
 
 h2 { /*main menu*/
-    font-family: serif;
+    font-family: temeraire, serif;
     text-align: center;
     color:#003F91;
-    margin-bottom: 1em;
-    font-size: 5em;
-     font-style: bold;
+    margin: 0em 2em;
+    font-size: 4.5em;
 }
 
 h3 {/*dish category*/
-   font-family: serif;
+   font-family: temeraire, serif;
     color: #1E80DC;
     text-align: center;
     font-size: 4em;
@@ -27,18 +28,27 @@ h3 {/*dish category*/
 }
 
 h4 { /*dish name*/
-    font-family: serif;
+    font-family: temeraire, serif;
+    font-size: 3em;
+     color:#003F91;
+    font-weight: 700;
+}
+
+.bullet {
+    font-family: temeraire, serif;
     font-size: 3em;
      color:#003F91;
 }
 
 .description {
+    font-family: temeraire, serif;
     margin:.1em, 10em, .1em, 5em;
     color: #003F91;
      font-size: 2.5em;
 }
 
 .price {
+    font-family: temeraire, serif;
     font-style: italic;
     font-size: 2.5em;
     color: #003F91;
