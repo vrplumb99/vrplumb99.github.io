@@ -1,0 +1,8 @@
+/*CSS DOCUMENT*/
+
+h2 {
+    font-family: sans-serif;
+    text-transform: lowercase;
+    font-size: 20px;
+     text-align: center;
+}
