@@ -7,7 +7,7 @@ h1 { /*title*/
     font-family: temeraire, serif;
     color: #1E80DC;
     text-align: center;
-     font-size: 7em;
+     font-size: 6em;
 }
 
 h2 { /*main menu*/
@@ -32,17 +32,16 @@ h4 { /*dish name*/
     font-size: 3em;
      color:#003F91;
     font-weight: 700;
+    margin-top: .1em
 }
 
 .bullet {
-    font-family: temeraire, serif;
-    font-size: 3em;
      color:#003F91;
 }
 
 .description {
     font-family: temeraire, serif;
-    margin:.1em, 10em, .1em, 5em;
+    margin: 0em, 15em, .1em, 5em;
     color: #003F91;
      font-size: 2.5em;
 }
@@ -52,5 +51,4 @@ h4 { /*dish name*/
     font-style: italic;
     font-size: 2.5em;
     color: #003F91;
-    margin-left: 3em;
 }
