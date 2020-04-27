@@ -17,7 +17,7 @@ h2 { /*main menu*/
     margin-bottom: 2em;
 }
 
-h3 {/*dish type*/
+h3 {/*dish category*/
     font-family: 'Arapey', serif;
     color: #229FB3B;
     text-align: center;
@@ -27,6 +27,7 @@ h3 {/*dish type*/
 h4 { /*dish name*/
      font-family: 'Arapey', serif;
    padding-left: 4em;
+    margin-left: 4em;
 }
 
 .description {
