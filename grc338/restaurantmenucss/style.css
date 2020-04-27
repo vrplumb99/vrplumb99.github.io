@@ -11,9 +11,10 @@ h1 { /*title*/
 h2 { /*main menu*/
     font-family: sans-serif;
     text-transform: lowercase;
-    font-size: 1em;
+    font-size: 2em;
     text-align: center;
     color:#17657F;
+    margin-bottom: 2em;
 }
 
 h3 {/*dish type*/
@@ -24,7 +25,7 @@ h3 {/*dish type*/
 
 h4 { /*dish name*/
      font-family: 'Arapey', serif;
-    margin-left: 4em;
+   padding-left: 4em;
 }
 
 .description {
