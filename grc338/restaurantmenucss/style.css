@@ -10,7 +10,6 @@ h1 { /*title*/
 
 h2 { /*main menu*/
     font-family: sans-serif;
-    text-transform: lowercase;
     text-align: center;
     color:#17657F;
     margin-bottom: 1em;
@@ -22,6 +21,8 @@ h3 {/*dish category*/
     color: #1EB3D9;
     text-align: center;
     font-size: 4em;
+    text-transform: lowercase;
+    font-style: italic;
 }
 
 h4 { /*dish name*/
