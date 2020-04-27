@@ -1,7 +1,9 @@
 /*CSS DOCUMENT*/
 
 h1 {
+    margin: 50px 50px 20px 50px;
     font-family: 'Arapey', serif;
     color:#62B3C6;
+    font-size: 40px;
 }
 
