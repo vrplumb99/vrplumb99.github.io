@@ -11,7 +11,7 @@ h1 { /*title*/
 h2 { /*main menu*/
     font-family: sans-serif;
     text-align: center;
-    color:#17657F;
+    color:#385D80;
     margin-bottom: 1em;
     font-size: 5em;
 }
@@ -35,12 +35,12 @@ h4 { /*dish name*/
 .description {
     margin:.1em, 10em, .1em, 5em;
     color: #386B73;
-     font-size: 2em;
+     font-size: 2.5em;
 }
 
 .price {
     font-style: italic;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #386B73;
     margin-left: 3em;
 }
