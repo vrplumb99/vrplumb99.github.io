@@ -9,7 +9,7 @@ h1 { /*title*/
 }
 
 h2 { /*main menu*/
-    font-family: sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     text-align: center;
     color:#003F91;
     margin-bottom: 1em;
@@ -29,18 +29,18 @@ h4 { /*dish name*/
     font-family: 'Nanum Myeongjo', serif;
     margin-left: 2em;
     font-size: 3em;
-     color:#386B73;
+     color:#003F91;
 }
 
 .description {
     margin:.1em, 10em, .1em, 5em;
-    color: #386B73;
+    color: #003F91;
      font-size: 2.5em;
 }
 
 .price {
     font-style: italic;
     font-size: 2.5em;
-    color: #386B73;
+    color: #003F91;
     margin-left: 3em;
 }
