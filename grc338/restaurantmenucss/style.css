@@ -1,33 +1,34 @@
 /*CSS DOCUMENT*/
 
-h1 {
+h1 { /*title*/
     margin: 40px 50px 20px 50px;
     font-family: 'Arapey', serif;
-    color:#62B3C6;
+    color:#29C2D9;
     font-size: 6em;
     text-align: center;
 }
 
-h2 {
+h2 { /*main menu*/
     font-family: sans-serif;
     text-transform: lowercase;
     font-size: 2em;
     text-align: center;
 }
 
-h3 {
+h3 {/*dishh type*/
     font-family: 'Arapey', serif;
-    color: #4FA0AB;
+    color: #229FB3B;
     margin-left: 1em;
 }
 
-h4 {
+h4 { /*dishh name*/
      font-family: 'Arapey', serif;
     margin-left: 1em;
 }
 
 .description {
     margin:.1em, 10em, .1em, 4em;
+    color: #386B73;
 }
 
 .price {
