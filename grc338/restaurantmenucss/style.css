@@ -21,23 +21,24 @@ h3 {/*dish category*/
     font-family: 'Arapey', serif;
     color: #229FB3B;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 h4 { /*dish name*/
      font-family: 'Arapey', serif;
    padding-left: 4em;
     margin-left: 4em;
+    font-size: 3em;
 }
 
 .description {
     margin:.1em, 10em, .1em, 4em;
-    padding-right: 10em;
     color: #386B73;
-     font-size: 4em;
+     font-size: 2em;
 }
 
 .price {
     font-style: italic;
-    font-size: 4em;
+    font-size: 2em;
+    color: #386B73;
 }
