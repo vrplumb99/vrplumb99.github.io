@@ -21,7 +21,7 @@ h3 {/*dish category*/
     color: #1EB3D9;
     text-align: center;
     font-size: 4em;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-style: italic;
 }
 
@@ -29,7 +29,7 @@ h4 { /*dish name*/
     font-family: 'Nanum Myeongjo', serif;
     margin-left: 2em;
     font-size: 3em;
-     color:#1EB3D9;
+     color:#17657F;
 }
 
 .description {
