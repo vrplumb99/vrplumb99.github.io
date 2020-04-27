@@ -29,3 +29,7 @@ h4 {
 .description {
     margin:.1em, 10em, .1em, 4em;
 }
+
+.price {
+    font-style: italic;
+}
