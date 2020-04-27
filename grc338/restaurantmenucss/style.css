@@ -11,17 +11,17 @@ h1 { /*title*/
 h2 { /*main menu*/
     font-family: sans-serif;
     text-transform: lowercase;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     color:#17657F;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 h3 {/*dish category*/
     font-family: 'Arapey', serif;
-    color: #229FB3B;
+    color:#229FB3B;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 h4 { /*dish name*/
@@ -35,6 +35,7 @@ h4 { /*dish name*/
     margin:.1em, 10em, .1em, 4em;
     color: #386B73;
      font-size: 2em;
+    
 }
 
 .price {
