@@ -1,0 +1,27 @@
+/*CSS DOCUMENT*/
+
+h1 {
+    margin: 20px 50px 20px 50px;
+    font-family: 'Arapey', serif;
+    color:#62B3C6;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-transform: lowercase;
+    font-size: 20px;
+     text-align: center;
+}
+
+h3 {
+    font-family: 'Arapey', serif;
+    color: #4FA0AB;
+    margin-left: 1em;
+}
+
+h4 {
+     font-family: 'Arapey', serif;
+    margin-left: 2em;
+}
