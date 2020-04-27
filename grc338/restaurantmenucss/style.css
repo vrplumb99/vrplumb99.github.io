@@ -42,3 +42,9 @@ h4 { /*dish name*/
     font-size: 2em;
     color: #386B73;
 }
+
+.bulletpt {
+    margin:.1em, 10em, .1em, 4em;
+    color: #386B73;
+     font-size: 2em;
+}
