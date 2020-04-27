@@ -19,13 +19,12 @@ h2 { /*main menu*/
 h3 {/*dish type*/
     font-family: 'Arapey', serif;
     color: #229FB3B;
-    margin-left: 1em;
     text-align: center;
 }
 
 h4 { /*dish name*/
      font-family: 'Arapey', serif;
-    margin-left: 1em;
+    margin-left: 4em;
 }
 
 .description {
