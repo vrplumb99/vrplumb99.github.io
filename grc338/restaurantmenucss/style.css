@@ -13,7 +13,7 @@ h2 { /*main menu*/
     text-transform: lowercase;
     font-size: 1em;
     text-align: center;
-     color:#17657F
+    color:#17657F;
 }
 
 h3 {/*dish type*/
@@ -30,7 +30,7 @@ h4 { /*dish name*/
 
 .description {
     margin:.1em, 10em, .1em, 4em;
-    padding-right: 10em
+    padding-right: 10em;
     color: #386B73;
 }
 
