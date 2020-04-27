@@ -14,7 +14,7 @@ h2 { /*main menu*/
     font-size: 3em;
     text-align: center;
     color:#17657F;
-    margin-bottom: 1em;
+    margin-bottom: 4em;
 }
 
 h3 {/*dish category*/
@@ -26,8 +26,7 @@ h3 {/*dish category*/
 
 h4 { /*dish name*/
      font-family: 'Arapey', serif;
-   padding-left: 4em;
-    margin-left: 4em;
+    margin-left: 2em;
     font-size: 3em;
 }
 
