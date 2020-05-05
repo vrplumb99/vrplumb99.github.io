@@ -41,9 +41,9 @@ img {
     font-weight: 400;
     font-style: normal;
     font-size: 1.5em;
-    padding: .25em;
+    padding-left: .5em;
     overflow: auto;
-    padding-top: 7.5em;
+    padding-top: 8em;
 }
 
 h3 {  /*ingredients/directions name*/
