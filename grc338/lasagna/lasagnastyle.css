@@ -1,0 +1,86 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/dcc2qvz.css");
+
+@import url("https://use.typekit.net/dcc2qvz.css");
+
+div.container {
+    max-width: 60em;
+    margin: auto;
+}
+
+h1 { /*title*/
+   text-align: center;
+    font-size: 3.5em;
+    color: #ED2103;
+    font-family: grafolita-script, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: auto;
+}
+
+h2 {  /*sub-head*/
+    font-size: 2em;
+    text-align: center;
+    color: #A62103;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: lowercase;
+}
+
+img {
+    width: 50%;
+    display: block;
+    float: left;
+    padding-bottom: 2em;
+}
+
+.intro p{  /*intro*/
+    color: #A62103;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    padding: .5em;
+    overflow: auto;
+    padding-top: 7em;
+}
+
+h3 {  /*ingredients/directions name*/
+    color: #ED2103;
+    font-family: grafolita-script, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+    clear: both;
+    padding-top: 1em;
+    border-top: dotted;
+    border-width: .15em;
+}
+
+.ingredients ul{  /*contents*/
+    color: #A62103; 
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    list-style-type:square;  
+    line-height:1.5em;
+}
+
+.directions li{  /*contents*/
+    color: #A62103;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+h6 {  /*recipe credit*/
+    color: #ED2103;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
