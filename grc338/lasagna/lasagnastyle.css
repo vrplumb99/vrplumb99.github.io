@@ -10,13 +10,12 @@ div.container {
 }
 
 h1 { /*title*/
-   text-align: center;
+    text-align: center;
     font-size: 3.5em;
     color: #ED2103;
     font-family: grafolita-script, sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin: auto;
 }
 
 h2 {  /*sub-head*/
@@ -42,9 +41,9 @@ img {
     font-weight: 400;
     font-style: normal;
     font-size: 1.5em;
-    padding: .5em;
+    padding: .25em;
     overflow: auto;
-    padding-top: 7em;
+    padding-top: 7.5em;
 }
 
 h3 {  /*ingredients/directions name*/
@@ -52,7 +51,7 @@ h3 {  /*ingredients/directions name*/
     font-family: grafolita-script, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.75em;
     clear: both;
     padding-top: 1em;
     border-top: dotted;
@@ -66,7 +65,7 @@ h3 {  /*ingredients/directions name*/
     font-style: normal;
     font-size: 1.25em;
     list-style-type:square;  
-    line-height:1.5em;
+    line-height: 1.5em;
 }
 
 .directions li{  /*contents*/
