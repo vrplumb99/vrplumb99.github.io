@@ -1,0 +1,41 @@
+/*CSS DOCUMENT*/
+@import url("https://use.typekit.net/dcc2qvz.css");
+@import url("https://use.typekit.net/dcc2qvz.css");
+
+img {
+    width: 50%;
+}
+
+.menutype { /*menu catagory*/
+    background-color: #1E80DC;
+    padding: .5em;
+    text-align: center;
+  font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.description {
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.dish{
+    
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+p {
+    font-family: degular, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
