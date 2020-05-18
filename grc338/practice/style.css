@@ -2,60 +2,100 @@
 @import url("https://use.typekit.net/dcc2qvz.css");
 @import url("https://use.typekit.net/dcc2qvz.css");
 
+div.container {
+     max-width: 40em;
+    margin: auto;
+}
 h1{ /*logo*/
     width: 20em;
     font-size: 1em;
-    /*float: left;*/
+   float: left;
 }
-
+nav{
+    float: left;
+}
+nav ul{
+    padding: 1em;
+}
 nav ul li{
     list-style: none;
     display: inline;
-    text-align: center;
-    margin: 0;
+    margin-right: 0em;
     letter-spacing: .1em;
-     text-transform: uppercase; 
+    text-align: center;   
 }
-
 nav ul li a{
     text-decoration: none;
-    color: lightcyan;
+    color: brown;
     font-size: 1em;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-right: auto;
+    text-align: center;
 }
-
-.navigation {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: deepskyblue;
-      float: center;
-}
-
-li a {
-  display: block;
-  text-align: center;
-  padding: 1em;
-    float: left;
-}
-
 li a:hover {
   background-color: thistle;
+    padding: 1em;
+}
+.navigation {
+ display: block;
+    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: deepskyblue;
+    width: 100%;    
+}
+.navigation a{
+    width:33.3%;
+     text-align: center;
+      padding: 2em;
 }
 
-.store{
+/*homepage*/
+.welcome{
+    margin: .75em;
+    text-align: center;
+     font-family: degular, sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    clear: both;
+}
+.store{/*picture*/
     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
+.slogan { /*fresh, simple, good*/
+    font-family: degular, sans-serif;
+font-weight: 600;
+font-size: 1em; 
+    text-align: center;
+}
 
-.owners {
+/*about page*/
+.about {
+    font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 2em; 
+    clear: both;
+}
+.owners {/*picture*/
     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
 }
 
+/*menu page*/
+.menu {
+    font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 2em;
+        clear: both;
+}
 .menutype { /*menu catagory*/
     background-color: #1E80DC;
     padding: .5em;
@@ -64,54 +104,43 @@ li a:hover {
 font-weight: 600;
 font-style: normal;
 }
-
+.dish{
+     text-align: center; 
+    list-style: none;
+    margin-bottom: .1em;
+}
 .description {
     text-transform: lowercase;
     font-style: italic;
+    text-align: center;
 }
-
-.dish{
-     list-style: none;
-}
-
-.about {
-    font-family: degular, sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 2em;    
-}
-
 .menulist {
     list-style: none;
         font-family: degular, sans-serif;
 font-weight: 600;
 font-size: 1em; 
 }
-
-.menu {
-    font-family: degular, sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 2em;    
+.turkey{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 10em;
+height: 10em;
 }
 
-.welcome{
-    margin: .5em;
-    text-align: center;
-}
-
+/*location*/
 .findus{ 
      font-family: degular, sans-serif;
 font-weight: 600;
 font-size: 1.5em; 
-    margin: .1em
+    margin-top: 1em;
+    margin-bottom: .1em;
+    clear: both;
 }
-
-.slogan { /*fresh, simple, good*/
-    font-family: degular, sans-serif;
-font-weight: 600;
-font-size: 1em; 
-    text-align: center;
+.picnic{/*picture*/
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h4{
@@ -119,6 +148,7 @@ h4{
 font-weight: 600;
 font-size: 1em;
     font-size: 1.15em;
+    clear: both;
     
 }
 
@@ -127,4 +157,9 @@ p { /*descriptions, text*/
     font-weight: 400;
     font-style: normal;
    margin: .5em;
+        clear: both;
+}
+
+.iframe{
+    width: 30%,
 }
