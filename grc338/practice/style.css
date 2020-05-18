@@ -12,23 +12,22 @@ nav ul li{
     list-style: none;
     display: inline;
     text-align: center;
-    margin-left: 2em;
+    margin: 0;
     letter-spacing: .1em;
      text-transform: uppercase; 
-      background-color: greenyellow;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: skyblue;
-    background-color: greenyellow;
+    color: lightcyan;
+    font-size: 1em;
 }
 
 .navigation {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: greenyellow;
+  background-color: deepskyblue;
       float: center;
 }
 
@@ -40,7 +39,7 @@ li a {
 }
 
 li a:hover {
-  background-color: grey;
+  background-color: thistle;
 }
 
 .store{
@@ -71,7 +70,25 @@ font-style: normal;
     font-style: italic;
 }
 
+.dish{
+     list-style: none;
+}
+
 .about {
+    font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 2em;    
+}
+
+.menulist {
+    list-style: none;
+        font-family: degular, sans-serif;
+font-weight: 600;
+font-size: 1em; 
+}
+
+.menu {
     font-family: degular, sans-serif;
 font-weight: 600;
 font-style: normal;
@@ -90,14 +107,22 @@ font-size: 1.5em;
     margin: .1em
 }
 
-h4 {
+.slogan { /*fresh, simple, good*/
     font-family: degular, sans-serif;
 font-weight: 600;
 font-size: 1em; 
     text-align: center;
 }
 
-p {
+h4{
+     font-family: degular, sans-serif;
+font-weight: 600;
+font-size: 1em;
+    font-size: 1.15em;
+    
+}
+
+p { /*descriptions, text*/
     font-family: degular, sans-serif;
     font-weight: 400;
     font-style: normal;
