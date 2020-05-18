@@ -2,46 +2,41 @@
 @import url("https://use.typekit.net/dcc2qvz.css");
 @import url("https://use.typekit.net/dcc2qvz.css");
 
-h1{
+h1{ /*logo*/
     width: 20em;
     font-size: 1em;
     /*float: left;*/
-}
-
-nav{
-    padding: 0;
-   border: 1em;
 }
 
 nav ul li{
     list-style: none;
     display: inline;
     text-align: center;
-    margin-left: 4em;
+    margin-left: 2em;
     letter-spacing: .1em;
      text-transform: uppercase; 
+      background-color: greenyellow;
 }
 
 nav ul li a{
     text-decoration: none;
     color: skyblue;
+    background-color: greenyellow;
 }
 
-ul {
+.navigation {
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: greenyellow;
-}
-
-li {
-  float: left;
+      float: center;
 }
 
 li a {
   display: block;
   text-align: center;
   padding: 1em;
+    float: left;
 }
 
 li a:hover {
@@ -59,7 +54,7 @@ li a:hover {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 70%;
 }
 
 .menutype { /*menu catagory*/
@@ -88,13 +83,18 @@ font-size: 2em;
     text-align: center;
 }
 
-.findus{   
+.findus{ 
+     font-family: degular, sans-serif;
+font-weight: 600;
+font-size: 1.5em; 
+    margin: .1em
 }
 
 h4 {
     font-family: degular, sans-serif;
 font-weight: 600;
 font-size: 1em; 
+    text-align: center;
 }
 
 p {
