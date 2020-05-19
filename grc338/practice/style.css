@@ -20,13 +20,15 @@ h1{ /*logo*/
     display: block;
   margin-left: auto;
   margin-right: auto;
-    padding: .5em;
+    padding: .25em;
 }
 nav{
     clear: both
 }
 nav ul{
     padding: 0;
+    padding-top: .20em;
+    padding-bottom: .20em
 }
 nav ul li{
     list-style: none;
@@ -41,12 +43,9 @@ nav ul li a{
     text-transform: uppercase;
     margin-right: auto;
     margin-left: auto;
-
 }
 .navigation {
  display: block;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #ed1948;
     width: 100%;
 }
@@ -58,7 +57,6 @@ font-weight: 600;
 font-style: normal;
 
 }
-
 /*homepage*/
 .welcome{
     font-size: 1.25em;
@@ -73,12 +71,25 @@ font-style: normal;
   margin-right: auto;
   width: 100%;
 }
+
 .slogan { /*fresh, simple, good*/
     font-family: degular, sans-serif;
 font-weight: 600;
 font-size: 1em; 
     text-align: center;
+    font-style: italic;
+    letter-spacing: .10em;
 }
+
+.subhead, .entry{
+    text-align: center;
+    margin-bottom: .75em;
+}
+
+.deli{
+    color: #ed1948;
+}
+
 
 /*about page*/
 .owners {/*picture*/
@@ -91,38 +102,35 @@ font-size: 1em;
 
 /*menu page*/
 .menutype { /*menu catagory*/
-    /*background-color: #1E80DC;*/
     padding: .5em;
     text-align: center;
 border-top: solid;
     border-width: .15em;
+    border-color: #ed1948;
 }
-
 .dish{
      text-align: center; 
     margin-bottom: .1em;
     color: #b05447;
+     font-size: 1.15em;
 }
 .description {
     text-transform: lowercase;
     font-style: italic;
     text-align: center;
 }
-
 .price{
      text-align: center;
     font-family: degular-text, sans-serif;
     font-weight: 200;
     font-style: normal;
 }
-
 .menulist {
     list-style: none;
         font-family: degular, sans-serif;
 font-weight: 600;
 font-size: 1em;
     padding: 0;
-    
 }
 .menupic{
 display: block;
@@ -131,13 +139,20 @@ display: block;
 width: 70%;
 }
 
-
 /*location*/
 .findus{ 
     font-size: 1.5em; 
     margin-top: 1em;
     margin-bottom: .1em;
+    color: #b05447;
     clear: both;
+}
+.googlemaps{
+    display: block;
+  margin-left: 0em;
+  margin-right: 0em;
+    margin-top: 1em;
+    margin-bottom: 2em; 
 }
 .picnic{/*picture*/
     display: block;
@@ -159,15 +174,16 @@ font-size: 2em;
 h3{ /*subcategories headings*/
     font-family: degular, sans-serif;
     font-weight: 600;
-    font-style: normal; 
+    font-style: normal;
+    font-size: 1.5em;
 }
 
 h4{
      font-family: degular, sans-serif;
     font-weight: 600;
     font-size: 1em;
-    clear: both;
-    
+    clear: both; 
+    letter-spacing: .05em;
 }
 
 p { /*descriptions, text*/
@@ -175,14 +191,6 @@ p { /*descriptions, text*/
     font-weight: 400;
     font-style: normal;
    margin: .5em;
+    line-height: 1.15em;
         clear: both;
-}
-
-.googlemaps{
-    display: block;
-  margin-left: 0em;
-  margin-right: 0em;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    
 }
