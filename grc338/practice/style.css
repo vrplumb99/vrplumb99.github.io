@@ -2,195 +2,313 @@
 @import url("https://use.typekit.net/dcc2qvz.css");
 @import url("https://use.typekit.net/dcc2qvz.css");
 @import url("https://use.typekit.net/dcc2qvz.css");
-
 body{
-    background-color: #FFF3D7;
+background-color: #FFF3D7;
 }
-
 div.container {
-     max-width: 40em;
-    margin: auto;
+max-width: 60em;
+border-top: 1px solid rgb(0,0,0);    
+margin: auto;
 }
-
-.logo{
-      margin:.1em;
-    margin-bottom: .25em;
-}
-h1{ /*logo*/
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-    padding: .25em;
-}
-nav{
-    clear: both
-}
-nav ul{
-    padding: 0;
-    padding-top: .20em;
-    padding-bottom: .20em
-}
-nav ul li{
-    list-style: none;
-    display: inline;
-    margin-left: 1em;
-    letter-spacing: .15em; 
-}
-nav ul li a{
-    text-decoration: none;
-    color: #ebf4b8;
-    font-size: 1em;
-    text-transform: uppercase;
-    margin-right: auto;
+div.floater{
+    max-width: 50em;
     margin-left: auto;
-}
-.navigation {
- display: block;
-  background-color: #ed1948;
+    margin-right: auto;
     width: 100%;
 }
-.navigation a{
-     text-align: center;
-      padding: 1em;
-     font-family: degular, sans-serif;
-font-weight: 600;
-font-style: normal;
+div.menucolumns{
+    /*max-width: 40em;*/
+    margin-left: auto;
+    margin-right: auto;
+        width: 90%;
+}
+div.blurb{
+max-width: 60em;
+margin-right: auto;
+    margin-left: auto;
+}
 
+@media only screen and (min-width: 25em){
+    div.floater{
+        width: 29%;
+        float: left;
+        margin:auto;
+        display: block;
+        margin-left: 1.25em;
+    }
+    body {
+    background-color: lightblue;
+        
+    }
+    h1{
+        max-width: 25%;
+        float: left;
+    }
+        .logo{
+        width: 40%;
+    }
+    .navigation a{
+        padding: 0em;
+    }
+    navigation{
+        padding: 0em;
+    }
+    }
+
+@media only screen and (min-width:45em){
+        h1{
+        max-height: 15%;
+        float: left;
+    }
+        .logo{
+        width: 40%;
+    }
+    body {
+    background-color: palegreen;
+    }
+    div.floater{
+        width:100%;
+    }
+    div.menucolumns{
+         width: 50%;
+        float: left;
+    }
+    .menupic{
+        width:40%;
+    }
+        div.floater{
+        width: 29%;
+        float: left;
+        margin:auto;
+        display: block;
+        margin-left: 1.25em;
+    }
+    div.blurb{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .vl {
+    border-left: .25em;
+    border-left-style: solid;
+    color: #ed1948;
+    height: 71.75em;
+    position: absolute;
+    left: 50%;
+    margin-left: auto;
+    margin-top: 1.5em;  
+    }
+    .description{
+        margin-left: 0em;
+            margin-right: 0em;
+        text-align: center; 
+    }
+    h2{
+        margin-left: .5em;
+    }
+    div.extras{
+            float: right;
+        text-align-last: left;
+    }
+        .extra{
+         max-width: 40%;
+        float: left;
+            padding-bottom:  1em;
+    }
+    .store{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    object-fit: contain; 
+    }
+    .slogan{
+    font-size: 1.5em;
+    }
+    /*.googlemaps{
+        max-width: 30%;
+          margin-left: 0;
+    margin-right: 0;*/
+        
+    }
+
+
+
+
+
+.logo{
+width:100%;
+}
+h1{ /*logo*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: .20em;
+}
+nav{
+clear: both;
+}
+nav ul{ /*bullet points*/
+    padding: 0em;
+padding-top: .20em;
+padding-bottom: .20em;
+}
+nav ul li{ /*makes elements size by side*/
+list-style: none;
+display: inline;
+letter-spacing: .15em; 
+}
+.navigation a{
+padding: 1em;
+font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;   
+}
+nav ul li a{
+text-decoration: none;
+color: #ebf4b8;
+font-size: 1em;
+text-transform: uppercase;
+}
+.navigation {
+background-color: #ed1948;
+width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right; 
 }
 /*homepage*/
 .welcome{
-    font-size: 1.25em;
-    text-align: center;
-    color: #b05447;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+font-size: 1.25em;
+text-align: center;
+color: #b05447;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
 }
 .store{/*picture*/
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+display: block;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
-
-.slogan { /*fresh, simple, good*/
-    font-family: degular, sans-serif;
-font-weight: 600;
-font-size: 1em; 
+.slogan { /*fresh, simple, delicious*/
+text-align: center;
+font-style: italic;
+letter-spacing: .10em;
+}
+.subhead{
     text-align: center;
-    font-style: italic;
-    letter-spacing: .10em;
+margin-bottom: .75em;
 }
 
-.subhead, .entry{
-    text-align: center;
-    margin-bottom: .75em;
+.entry{
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
 }
-
 .deli{
-    color: #ed1948;
+color: #ed1948;
 }
-
-
 /*about page*/
 .owners {/*picture*/
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-    margin-top: 2em;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+margin-top: 2em;
 }
-
 /*menu page*/
 .menutype { /*menu catagory*/
-    padding: .5em;
-    text-align: center;
+padding: .1em;
+text-align: center;
 border-top: solid;
-    border-width: .15em;
-    border-color: #ed1948;
+border-width: .15em;
+border-color: #ed1948;
+margin-right: auto;
+margin-left: auto;    
 }
 .dish{
-     text-align: center; 
-    margin-bottom: .1em;
-    color: #b05447;
-     font-size: 1.15em;
+text-align: center; 
+margin-bottom: .1em;
+color: #b05447;
+font-size: 1.15em;
 }
 .description {
-    text-transform: lowercase;
-    font-style: italic;
-    text-align: center;
+text-transform: lowercase;
+font-style: italic;
+text-align: center;
 }
 .price{
-     text-align: center;
-    font-family: degular-text, sans-serif;
-    font-weight: 200;
-    font-style: normal;
+text-align: center;
+font-family: degular-text, sans-serif;
+font-weight: 200;
+font-style: normal;
 }
 .menulist {
-    list-style: none;
-        font-family: degular, sans-serif;
+list-style: none;
+font-family: degular, sans-serif;
 font-weight: 600;
 font-size: 1em;
-    padding: 0;
+padding: 0;
 }
-.menupic{
+.menupic, .extra{
 display: block;
-  margin-left: auto;
-  margin-right: auto;
-width: 70%;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
 }
-
 /*location*/
 .findus{ 
-    font-size: 1.5em; 
-    margin-top: 1em;
-    margin-bottom: .1em;
-    color: #b05447;
-    clear: both;
+font-size: 1.5em; 
+margin-top: 1em;
+margin-bottom: .1em;
+color: #b05447;
 }
 .googlemaps{
-    display: block;
-  margin-left: 0em;
-  margin-right: 0em;
-    margin-top: 1em;
-    margin-bottom: 2em; 
+display: block;
+margin: 0;
+margin-top: 1em;
+margin-bottom: 2em;
+width: 100%; 
+border: none;
+    height: 15em;
+margin-left: auto;
+    margin-right: auto;
+    
 }
 .picnic{/*picture*/
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 margin-top: 2em;
-      width: 80%; 
+width: 80%; 
 }
-
 h2{/*page headings*/
-    font-family: degular, sans-serif;
+font-family: degular, sans-serif;
 font-weight: 600;
 font-style: normal;
 font-size: 2em;
-        clear: both; 
-    margin-bottom: .1em;
+clear: both; 
+margin-bottom: .1em;
 }
-
 h3{ /*subcategories headings*/
-    font-family: degular, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.5em;
+font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 1.5em;
+clear: both;    
 }
-
-h4{
-     font-family: degular, sans-serif;
-    font-weight: 600;
-    font-size: 1em;
-    clear: both; 
-    letter-spacing: .05em;
+h4{/*unique items*/
+font-family: degular, sans-serif;
+font-weight: 600;
+font-size: 1em;
+clear: both; 
+letter-spacing: .05em;
 }
-
 p { /*descriptions, text*/
-    font-family: degular, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-   margin: .5em;
-    line-height: 1.15em;
-        clear: both;
-}
+font-family: degular, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin: .5em;
+line-height: 1.15em;
+clear: both;
+} 
