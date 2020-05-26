@@ -1,0 +1,288 @@
+/*CSS DOCUMENT*/
+@import url("https://use.typekit.net/dcc2qvz.css");
+@import url("https://use.typekit.net/dcc2qvz.css");
+@import url("https://use.typekit.net/dcc2qvz.css");
+body{
+background-color: #FFF3D7;
+}
+div.container {
+max-width: 75em;  
+margin: auto;
+}
+.logo{
+width:100%;
+}
+h1{ /*logo*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: .20em;
+}
+nav{
+clear: both;
+}
+nav ul{ /*bullet points*/
+padding: 0em;
+padding-top: .20em;
+padding-bottom: .20em;
+}
+nav ul li{ /*makes menus side by side*/
+list-style: none;
+display: inline;
+letter-spacing: .15em; 
+}
+.navigation a{
+padding: 1em;
+font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;   
+}
+nav ul li a{
+text-decoration: none;
+color: #ebf4b8;
+font-size: 1em;
+text-transform: uppercase;
+}
+.navigation {
+background-color: #ed1948;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+text-align: center; 
+}
+/*homepage*/
+.welcome{
+font-size: 1.25em;
+text-align: center;
+color: #b05447;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+}
+.store{/*picture*/
+display: block;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.slogan { /*fresh, simple, delicious*/
+text-align: center;
+font-style: italic;
+letter-spacing: .10em;
+}
+.subhead{
+text-align: center;
+margin-bottom: .75em;
+}
+.entry{
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+}
+.deli{
+color: #ed1948;
+}
+/*about page*/
+.owners {/*picture*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+margin-top: 2em;
+}
+/*menu page*/
+.menutype { /*menu catagory*/
+text-align: center;
+border-top: solid;
+border-width: .15em;
+border-color: #ed1948;
+margin-right: auto;
+margin-left: auto;
+padding-top: .5em; 
+}
+.dish{
+text-align: center; 
+margin-bottom: .1em;
+color: #b05447;
+font-size: 1.15em;
+}
+.description {
+text-transform: lowercase;
+font-style: italic;
+text-align: center;
+}
+.price{
+text-align: center;
+font-family: degular-text, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+.menulist {
+list-style: none;
+font-family: degular, sans-serif;
+font-weight: 600;
+font-size: 1em;
+padding: 0;
+}
+.menupic, .extra, .meat{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+padding-top:.5em;
+}
+/*location*/
+.findus{ 
+font-size: 1.5em; 
+margin-top: 1em;
+margin-bottom: .15em;
+color: #b05447;  
+clear: both;
+margin-left: auto;
+margin-right: auto;
+}
+.googlemaps{
+display: block;
+margin-top: 1em;
+margin-bottom: 2em;
+width: 100%; 
+border: none;
+height: 15em;
+margin-left: auto;
+margin-right: auto; 
+}
+.picnic{/*picture*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2em;
+width: 80%; 
+}
+h2{/*page headings*/
+font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 2em;
+clear: both; 
+margin-bottom: .1em;
+}
+h3{ /*subcategories headings*/
+font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 1.5em;
+clear: both;    
+}
+h4{/*unique items*/
+font-family: degular, sans-serif;
+font-weight: 600;
+font-size: 1em;
+clear: both; 
+letter-spacing: .05em;
+}
+p { /*descriptions, text*/
+font-family: degular, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin: .5em;
+line-height: 1.15em;
+clear: both;
+} 
+@media only screen and (min-width: 25em){
+h1{
+float: left;
+}
+.logo{
+width: 35%;
+}
+.navigation a{
+padding: 0em;
+padding-right: .5em; 
+}
+.navigation{
+text-align: right;
+padding: 0em;
+letter-spacing: .75em;
+}
+a:hover{
+color: #f9c7bd;
+}
+div.blurb{
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+}
+div.aboutblurb, div.menublurb, div.locationblurb{
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+}
+.store{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 95%;
+}
+} /*closing media tag*/
+@media only screen and (min-width:45em){
+.logo{
+width: 30%;
+}
+.store{
+max-width: 80%;
+}
+div.blurb{
+width: 70%;
+}
+.slogan{
+font-size: 1.5em;
+}
+div.aboutblurb, div.menublurb, div.locationblurb{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+div.menucolumns{
+width: 50%;
+float: left;
+text-align: left;
+}
+div.extras{
+width: 55%;
+float: right;
+}
+.extra{
+width: 40%;
+float: left;
+margin-bottom: 2em;
+}
+.menupic, .meat{
+width:50%; 
+margin-left: 0;
+}
+.dish, .menutype, .price{
+text-align: left;
+}
+.description{
+margin-left: 0em;
+margin-right: 0em;
+text-align: left; 
+padding-left:.5em;
+padding-right: .5em;
+}
+.meat{
+width: 59%;
+}
+div.directions{
+display: block;
+float: left;
+margin-bottom: 1em;
+width: 30%;
+margin-left: 3em;
+}
+div.map{
+width: 55%;
+float: left;
+clear: right;
+display: block;     
+}
+} /*closing media tag*/
