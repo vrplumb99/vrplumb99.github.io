@@ -6,133 +6,17 @@ body{
 background-color: #FFF3D7;
 }
 div.container {
-max-width: 60em;
+max-width: 75em;
 border-top: 1px solid rgb(0,0,0);    
 margin: auto;
 }
-div.floater{
-    max-width: 50em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
+
 div.menucolumns{
     /*max-width: 40em;*/
     margin-left: auto;
     margin-right: auto;
         width: 90%;
 }
-div.blurb{
-max-width: 60em;
-margin-right: auto;
-    margin-left: auto;
-}
-
-@media only screen and (min-width: 25em){
-    div.floater{
-        width: 29%;
-        float: left;
-        margin:auto;
-        display: block;
-        margin-left: 1.25em;
-    }
-    body {
-    background-color: lightblue;
-        
-    }
-    h1{
-        max-width: 25%;
-        float: left;
-    }
-        .logo{
-        width: 40%;
-    }
-    .navigation a{
-        padding: 0em;
-    }
-    navigation{
-        padding: 0em;
-    }
-    }
-
-@media only screen and (min-width:45em){
-        h1{
-        max-height: 15%;
-        float: left;
-    }
-        .logo{
-        width: 40%;
-    }
-    body {
-    background-color: palegreen;
-    }
-    div.floater{
-        width:100%;
-    }
-    div.menucolumns{
-         width: 50%;
-        float: left;
-    }
-    .menupic{
-        width:40%;
-    }
-        div.floater{
-        width: 29%;
-        float: left;
-        margin:auto;
-        display: block;
-        margin-left: 1.25em;
-    }
-    div.blurb{
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-    .vl {
-    border-left: .25em;
-    border-left-style: solid;
-    color: #ed1948;
-    height: 71.75em;
-    position: absolute;
-    left: 50%;
-    margin-left: auto;
-    margin-top: 1.5em;  
-    }
-    .description{
-        margin-left: 0em;
-            margin-right: 0em;
-        text-align: center; 
-    }
-    h2{
-        margin-left: .5em;
-    }
-    div.extras{
-            float: right;
-        text-align-last: left;
-    }
-        .extra{
-         max-width: 40%;
-        float: left;
-            padding-bottom:  1em;
-    }
-    .store{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 75%;
-    object-fit: contain; 
-    }
-    .slogan{
-    font-size: 1.5em;
-    }
-    /*.googlemaps{
-        max-width: 30%;
-          margin-left: 0;
-    margin-right: 0;*/
-        
-    }
-
-
-
 
 
 .logo{
@@ -174,7 +58,7 @@ background-color: #ed1948;
 width: 100%;
     margin-left: auto;
     margin-right: auto;
-    text-align: right; 
+    text-align: center; 
 }
 /*homepage*/
 .welcome{
@@ -199,7 +83,6 @@ letter-spacing: .10em;
     text-align: center;
 margin-bottom: .75em;
 }
-
 .entry{
     margin-bottom: 1em;
     margin-left: 0;
@@ -218,13 +101,13 @@ margin-top: 2em;
 }
 /*menu page*/
 .menutype { /*menu catagory*/
-padding: .1em;
 text-align: center;
 border-top: solid;
 border-width: .15em;
 border-color: #ed1948;
 margin-right: auto;
-margin-left: auto;    
+margin-left: auto;
+    padding-top: .5em; 
 }
 .dish{
 text-align: center; 
@@ -250,30 +133,32 @@ font-weight: 600;
 font-size: 1em;
 padding: 0;
 }
-.menupic, .extra{
+.menupic, .extra, .meat{
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 75%;
+    padding-top:.5em;
 }
 /*location*/
 .findus{ 
 font-size: 1.5em; 
 margin-top: 1em;
-margin-bottom: .1em;
-color: #b05447;
+margin-bottom: .15em;
+color: #b05447;  
+clear: both;
+margin-left: auto;
+margin-right: auto;
 }
 .googlemaps{
 display: block;
-margin: 0;
 margin-top: 1em;
 margin-bottom: 2em;
 width: 100%; 
 border: none;
     height: 15em;
 margin-left: auto;
-    margin-right: auto;
-    
+margin-right: auto; 
 }
 .picnic{/*picture*/
 display: block;
@@ -312,3 +197,131 @@ margin: .5em;
 line-height: 1.15em;
 clear: both;
 } 
+
+
+
+@media only screen and (min-width: 25em){
+   body {
+    background-color: lightblue;   
+    }
+    h1{
+        float: left;
+    }
+        .logo{
+        width: 35%;
+    }
+    .navigation a{
+        padding: 0em;
+        padding-right: .5em; 
+    }
+    .navigation{
+        text-align: right;
+        padding: 0em;
+        letter-spacing: .75em;
+    }
+        div.blurb{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    }
+        div.aboutblurb{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    } /*closing media tag*/
+
+@media only screen and (min-width:45em){
+        h1{
+        float: left;
+    }
+        .logo{
+        width: 30%;
+    }
+    body {
+    background-color: palegreen;
+    }
+    .store{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    }
+    div.blurb{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    }
+    .slogan{
+    font-size: 1.5em;
+    }
+    div.aboutblurb{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+    }
+    
+        div.menublurb{
+    margin-left: auto;
+    margin-right: auto;
+            width: 90%;
+    }
+    
+    div.menucolumns{
+         width: 50%;
+        float: left;
+        text-align: left;
+    }
+    
+    
+    
+        div.extras{
+        width: 55%;
+        float: right;
+    }
+       .extra{
+       width: 40%;
+       float: left;
+       margin-bottom: 2em;
+    }
+    
+    .menupic, .meat{
+        width:50%; 
+        margin-left: 0;
+    }
+    .dish, .menutype, .price{
+        text-align: left;
+    }
+    .description{
+        margin-left: 0em;
+            margin-right: 0em;
+        text-align: left; 
+        padding-left:.5em;
+        padding-right: .5em;
+        }
+
+    .meat{
+        width: 59%;
+    }
+    
+
+    div.locationblurb{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+        }
+        div.directions{
+        display: block;
+        float: left;
+        margin-bottom: 1em;
+        width: 30%;
+        margin-left: 3em;
+        }
+        div.map{
+        width: 55%;
+        float: left;
+        clear: right;
+        display: block;     
+        }
+} /*closing media tag*/
+
