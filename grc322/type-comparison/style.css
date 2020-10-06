@@ -11,7 +11,7 @@ font-weight: normal;
 
 /*sets a max width of the main page*/
 .maincontent{
-    max-width:80em;
+    max-width:60em;
     margin: auto;
 }
 /*navigation menu lines*/
@@ -76,38 +76,27 @@ p{
     color:#32383f;
 }
 /*Overview Page*/
-/*makes list of fonts line up for Trade Gothic line up with Franklin*/
-.lineup{
-    padding-bottom: 5em;
-}
-/*makes trade gothic title line up with Franklin*/
-.down{
-   padding-bottom: 1.25em;
-}
 
 /*franklin gothic column formatting*/
 .franklin{
-  padding: 2em;
-    margin: 1.5em;
-    width:40%;
-    float: left;
+    width:60%;
 }
 /*trade column formatting*/
 .trade {
     padding:1em;
     margin:1.5em;
-    width:40%;
-    float:left;
+    width:60%;
 }
 
 /*Comparison Page*/
 /*main text*/
 .blurb{
-    max-width: 60em;
-    margin-left: 6em;
+    max-width: 40em;
+    margin-left: 8em;
 }
-/*comparison positioning*/
-.compare, .examples{
+
+/*positioning*/
+.overview, .compare, .examples{
     text-align: left;
     max-width: 50%;
     margin-top:.75em;
