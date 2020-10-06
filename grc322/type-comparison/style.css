@@ -1,3 +1,4 @@
+/*sets consistent margin/padding for all type*/
 h1, h2, h3, h4, p, ul, ol, li {
 margin: 0; 
 padding:0; 
@@ -8,26 +9,32 @@ font-weight: normal;
 *{
     background-color: #fdfdfd;}
 
+/*sets a max width of the main page*/
+.maincontent{
+    max-width:80em;
+    margin: auto;
+}
+/*navigation menu lines*/
  nav li {
     font-family:utopia-std,serif;
     display: inline;
-     border-right: 2px solid #c8dad3;
+     border-right: .1em solid #A2ACD4;
 }
-
+/*navigation menu style*/
 nav a {
     text-decoration: none;
     box-sizing: border-box;
-    color: #c8dad3;
+    color: #A2ACD4;
     padding:0.5em;
     
 }
-
+/*navigation menu alignment*/
 nav ul{
     float:right;
-    margin: 5px 0 20px 0;
+    margin: 1em 0 1em 0;
 
 }
-
+/*navigation menu hover color*/
 nav a:hover{
     color:#32383f;
 }
@@ -35,7 +42,7 @@ nav a:hover{
 nav li:last-child  {
     border-right: 0;
 }
-
+/*title formating*/
 h1{
   font-family: utopia-std, serif;
     font-weight: 700;
@@ -46,90 +53,65 @@ h1{
     color:#32383f;
 }
 
+/*subhead format*/
 h2{
   font-family:utopia-std,serif;
   font-size:1.5em;
   font-weight: bold;
     color:#32383f;
-
 }
 
+/*font authors, captions*/
 h3{
   font-family:utopia-std,serif;
   font-size:1em;
     font-style: italic;
     color:#32383f;
 }
-
+/*body text*/
 p{
   font-family:utopia-std,serif;
   font-size: 1em;
-  padding: 10px 0px;
+  padding: 0.5em 0em 2em 0em;
     color:#32383f;
 }
-.moveup{
-    padding-top: .75em;
-}
+/*Overview Page*/
+/*makes list of fonts line up for Trade Gothic line up with Franklin*/
 .lineup{
-    padding-bottom: 0em;
+    padding-bottom: 5em;
 }
-
+/*makes trade gothic title line up with Franklin*/
 .down{
-   padding-bottom: 0.5em;
+   padding-bottom: 1.25em;
 }
 
+/*franklin gothic column formatting*/
+.franklin{
+  padding: 2em;
+    margin: 1.5em;
+    width:40%;
+    float: left;
+}
+/*trade column formatting*/
 .trade {
-    padding:2em;
-    margin:30px;
+    padding:1em;
+    margin:1.5em;
     width:40%;
     float:left;
 }
 
-.trade p {
-    margin-bottom: 60px;
+/*Comparison Page*/
+/*main text*/
+.blurb{
+    max-width: 60em;
+    margin-left: 6em;
 }
-
-.tradeexamples img {
-    width=95%;
-    margin:20px;
-}
-
-.chair{
-    display: block;
-    width: 27%;
-    float: left;
-}
-
-.youtube{
-     display: block;
-    width: 30%;
-    float: left;
-    margin-bottom: 1em;
-}
-
-.franklin{
-  padding: 2em;
-    margin: 30px;
-    width:40%;
-    float: left;
-}
-
-.franklinexamples img{
-    width=95%;
-    margin:20px;
-}
-.frank{
-    width:45%;
-    
-}
-.fg{
-   width:28%; 
-}
-
-.compare{
+/*comparison positioning*/
+.compare, .examples{
     text-align: left;
     max-width: 50%;
-    margin:.75em 0 0 2em;
+    margin-top:.75em;
+    margin: auto;
 }
 
 .compare h1{
@@ -138,4 +120,14 @@ p{
 
 .compare img{
     margin: auto;
+}
+
+/*Examples Page*/
+.gothicexamples {
+    width=95%;
+}
+.frank, .trade{
+    width:85%;
+    margin-bottom: .5em;
+    margin-top: 2em;
 }
