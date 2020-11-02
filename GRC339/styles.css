@@ -79,7 +79,7 @@ div.container {
 }.grid-container{
     margin-left: 0;
     margin-right: 0;
-    height: 110vh; /*height of grid*/
+    height: 120vh; /*height of grid*/
     display: grid; /*show as a grid*/
     grid-template-rows: 200px 200px;
     grid-template-columns: repeat(5,  1fr); /*5 column grid*/
