@@ -199,4 +199,7 @@ div.sy-box{ /*size and positioning of slider*/
         margin-bottom: 13em;
     } .item-3, .item-5 .item-6{ /*wine glass, bacon, waves*/
         margin-bottom: 2em;
-} 
+    } .sy-pager li a{
+        background-size: 1em;
+    }
+}
