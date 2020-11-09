@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink Splashes</title>
+    <!--links font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--links slippry CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.css" integrity="sha512-T+a5Aa01HOiiskCpZYtRZu69nfOIyhjrDn0PRClEQTDKZ16pcdvaU7KD1m0NrQIKn6LqUzY8tgLsfOVGiJs2Rg==" crossorigin="anonymous" />
+    <!--links MY css file-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> <a href="index.html"><img src="https://vrplumb99.github.io/grc338/Logo.png" alt="Ink Splashes logo."></a></h1>
+        <nav id="main-menu">
+            <ul> <!--navigation links-->
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">Create</a></li>
+                <li><a href="#">Location</a></li>
+            </ul>
+        </nav>
+        <!--hamburger menu toggle-->
+        <div class="toggle" tabindex="-1" aria-hidden="true" aria-labelledby="#main-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <!--products page content-->
+    <main>
+        <!--slideshow images-->
+        <div class="slider">
+            <!--code structure from slippry.com-->
+            <ul id="out-of-the-box-demo">
+                <li>
+                    <a href="#slide1"><img src="https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="Potter's wheel."></a> <!--Photo by Jessica Ruscello on Unsplash-->
+                </li>
+                <li>
+                    <a href="#slide2"><img src="images/coffee.jpg"  alt="Ceramic cup of coffee."></a><!--Photo by Quaid Lagan on Unsplash-->
+                </li>
+                <li>
+                    <a href="#slide3"><img class="candle" src="images/candle.jpg" alt="Ceramic candle holders."></a><!--Photo by Luis Ella Planeta Leoni from pixabay-->
+                </li>
+                <li>
+                    <a href="#slide4"><img src="images/colorful_bowls.png" alt="Colorful ceramic bowls."></a> <!--Photo by SoulCeramics-->
+                </li>
+            </ul>
+        </div>
+        <!--Artist's work-->
+        <section>
+            <h2>Maddie Grayson's Gallery</h2>
+                <div class="grid-container">
+                    <h3 class="grid-item item-1">Chips and Dip Platter<img src="https://vrplumb99.github.io/GRC339/images/one.jpg" alt="Ceramic chips and dip platter."></h3> <!--Photo by PotteryandPaintings on Etsy-->
+                    <h3 class="grid-item item-2">Brie Baker<img src="https://vrplumb99.github.io/GRC339/images/two.jpg" alt="Ceramic brie baker."></h3> <!--Photo by AnnetteLowderPottery on Etsy-->
+                    <h3 class="grid-item item-5">Bacon Cooker<img src="https://vrplumb99.github.io/GRC339/images/three.jpg" alt="Ceramic bacon baker."></h3> <!--Photo by TurtleRokPottery on Etsy-->
+                    <h3 class="grid-item item-4">Northern Lights Mug<img src="https://vrplumb99.github.io/GRC339/images/eight.jpg" alt="Ceramic Northern Lights mug"></h3> <!--Photo by KentHarrisPottery on Etsy-->
+                    <h3 class="grid-item item-7">Serving Bowl <img src="https://vrplumb99.github.io/GRC339/images/four.jpg" alt="Ceramic serving bowl."></h3> <!--Photo by CeramicsStories on Etsy-->
+                    <h3 class="grid-item item-3">Ceramic Wine Glass <img src="https://vrplumb99.github.io/GRC339/images/five.jpg" alt="Ceramic wine glass."></h3> <!--Photo by SwapnIl Dwivedi on Unsplash-->
+                    <h3 class="grid-item item-6">Wave Textured Mug <img src="https://vrplumb99.github.io/GRC339/images/six.jpg" alt="Ceramic wave tectured mug."></h3> <!--Photo by TurtleRokPottery on Etsy-->
+                    <h3 class="grid-item item-8">Chip and Dip Platter<img src="https://vrplumb99.github.io/GRC339/images/seven.jpg" alt="Ceramic chip and dip platter"></h3> <!--Photo by MosquitoMudPottery on Etsy-->
+                </div>
+        </section>      
+    </main>    
+
+    <footer>
+        <p>All Rights Reserved Ink Splashes 2020</p>
+    </footer>
+
+    <!--links JS library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!--links slippry library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js" integrity="sha512-AuA2kbI9ByrbsuXrrdqY8qlayz6cFSwLl7qvLBQSMJIWJ5YFjBRKrtVWD3NKWZHOcxqpnqYJtcLaZARXxR+Kjg==" crossorigin="anonymous"></script>
+    <!--links JS file-->
+    <script src="script.js"></script>
+</body>
+</html>
